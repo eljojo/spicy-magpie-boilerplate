@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Developed by
+
+    Spicy Magpie - <spicy.magpie@gmail.com>
+
+# TECHNOLOGY COLOPHON
+
+  - Brackets
+  - HTML
+  - CSS
+  - JavaScript
+  - Adobe Cross Domain Policy File
+  - BrowseHappy

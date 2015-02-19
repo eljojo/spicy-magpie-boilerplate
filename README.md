@@ -46,3 +46,14 @@ In simple steps:
   - Write JavaScript code.
   - Write tests.
 
+## License
+
+MIT License. I didn't include it now but will be part of the
+better documentation that I promised in the TODO list.
+
+## Suggestions?
+
+Drop me a line at spicy.magpie@gmail.com
+
+Your suggestions will be greatly appreciated!
+

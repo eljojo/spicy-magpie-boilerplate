@@ -1,0 +1,314 @@
+/**
+ * Spicy Magpie's Boilerplate
+ */
+
+@font-face {
+    font-family: "PT Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-mono/pt-mono-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-mono/pt-mono-regular-normal.woff") format("woff"),
+         url("../fonts/pt-mono/pt-mono-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-mono/pt-mono-regular-normal.svg#PTMono") format("svg");
+}
+
+@font-face {
+    font-family: "PT Mono";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/pt-mono/pt-mono-bold-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-mono/pt-mono-bold-normal.woff") format("woff"),
+         url("../fonts/pt-mono/pt-mono-bold-normal.ttf") format("truetype"),
+         url("../fonts/pt-mono/pt-mono-bold-normal.svg#PTMono") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-sans/pt-sans-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-regular-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-regular-normal.svg#PTSans") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/pt-sans/pt-sans-bold-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-bold-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-bold-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-bold-normal.svg#PTSans") format("svg");
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/pt-sans/pt-sans-regular-italic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-regular-italic.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-regular-italic.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-regular-italic.svg#PTSans") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/pt-sans/pt-sans-bold-italic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-bold-italic.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-bold-italic.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-bold-italic.svg#PTSans") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-sans/pt-sans-caption-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-caption-regular-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-caption-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-caption-regular-normal.svg#PTSansCaption") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/pt-sans/pt-sans-caption-bold-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-caption-bold-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-caption-bold-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-caption-bold-normal.svg#PTSansCaption") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-sans/pt-sans-narrow-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-narrow-regular-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-narrow-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-narrow-regular-normal.svg#PTSansNarrow") format("svg");
+}
+
+@font-face {
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/pt-sans/pt-sans-narrow-bold-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-sans/pt-sans-narrow-bold-normal.woff") format("woff"),
+         url("../fonts/pt-sans/pt-sans-narrow-bold-normal.ttf") format("truetype"),
+         url("../fonts/pt-sans/pt-sans-narrow-bold-normal.svg#PTSansNarrow") format("svg");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-serif/pt-serif-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-regular-normal.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-regular-normal.svg#PTSerif") format("svg");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/pt-serif/pt-serif-bold-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-bold-normal.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-bold-normal.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-bold-normal.svg#PTSerif") format("svg");
+}
+@font-face {
+    font-family: "PT Serif";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/pt-serif/pt-serif-regular-italic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-regular-italic.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-regular-italic.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-regular-italic.svg#PTSerif") format("svg");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/pt-serif/pt-serif-bold-italic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-bold-italic.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-bold-italic.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-bold-italic.svg#PTSerif") format("svg");
+}
+
+@font-face {
+    font-family: "PT Serif Caption";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/pt-serif/pt-serif-caption-regular-normal.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-normal.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-normal.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-normal.svg#PTSerifCaption") format("svg");
+}
+
+@font-face {
+    font-family: "PT Serif Caption";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/pt-serif/pt-serif-caption-regular-italic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-italic.woff") format("woff"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-italic.ttf") format("truetype"),
+         url("../fonts/pt-serif/pt-serif-caption-regular-italic.svg#PTSerifCaption") format("svg");
+}
+
+html, body, button, select, input, textarea {
+    color: #333333;
+    font-family: "PT Sans", sans-serif;
+    font-size: 10pt;
+    line-height: 1;
+}
+
+a {
+    color: #0033FF;
+}
+
+a:hover {
+    color: #6699FF;
+}
+
+a:link {
+    -webkit-tap-highlight-color: #FCC600;
+}
+
+audio, canvas, img, video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #CCCCCC;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ins {
+    background-color: #FCC600;
+    color: #000000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #FCC600;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", serif;
+}
+
+abbr, cite, q, code, command, kbd, pre, samp {
+    font-family: "PT Mono", monospace;
+}
+
+::-moz-selection {
+    background-color: #FCC600;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+::selection {
+    background-color: #FCC600;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+
+textarea:-moz-placeholder {
+    color: #999999;
+}
+
+.outdated-browser-warning {
+    background-color: #FCC600;
+    box-shadow: 0 2px 2px 1px #333333;
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 12px;
+    border-bottom: 1px #333333 solid;
+    visibility: visible;
+    display: block;
+    opacity: 0.5;
+    z-index: 65536;
+    position: static;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    color: #333333;
+    cursor: help;
+    font-family: "PT Sans", sans-serif;
+    font-size: 12pt;
+    font-size-adjust: none;
+    letter-spacing: normal;
+    line-height: 1;
+    text-align: center;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    text-rendering: optimizeLegibility;
+    pointer-events: auto;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
