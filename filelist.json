@@ -1,0 +1,50 @@
+{
+    "css": [
+        {
+            "name": "vendor/bower/html5-reset/assets/css/reset.css",
+            "group": "vendor"
+        },
+        {
+            "name": "vendor/bower/html5-reset/assets/css/style.css",
+            "group": "vendor"
+        },
+        {
+            "name": "stylesheets/default.css",
+            "group": "development"
+        },
+        {
+            "name": "stylesheets/design.css",
+            "group": "development"
+        },
+        {
+            "name": "stylesheets/mobile.css",
+            "group": "development"
+        }
+    ],
+    "js": [
+        {
+            "name": "vendor/bower/modernizr/modernizr.js",
+            "group": "vendor"
+        },
+        {
+            "name": "vendor/bower/underscore/underscore.js",
+            "group": "vendor"
+        },
+        {
+            "name": "vendor/bower/sugar/release/sugar-full.development.js",
+            "group": "vendor"
+        },
+        {
+            "name": "vendor/bower/jquery/dist/jquery.js",
+            "group": "vendor"
+        },
+        {
+            "name": "javascripts/console.js",
+            "group": "development"
+        },
+        {
+            "name": "javascripts/application.js",
+            "group": "development"
+        }
+    ]
+}

@@ -31,6 +31,8 @@ In simple steps:
   - Open your project directory with your IDE.
   - Edit the values for your project on the **package,json** file.
   - Modify files and watch the changes.
+  - In the console, you will see the access URL's. You can watch the changes
+  across multiple browsers and devices.
 
 ## I finished my project. What else should I do?
 
@@ -40,11 +42,9 @@ In simple steps:
 ## TODO
 
   - Write better documentation.
-  - Write grunt tasks.
-  - Write HTML code.
-  - Write CSS stylesheets.
-  - Write JavaScript code.
   - Write tests.
+  - Add compatibility with SASS, SCSS and LESS.
+  - Add compatibility with CoffeeScript.
 
 ## License
 
@@ -56,4 +56,3 @@ better documentation that I promised in the TODO list.
 Drop me a line at spicy.magpie@gmail.com
 
 Your suggestions will be greatly appreciated!
-
