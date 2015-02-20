@@ -1,6 +1,7 @@
 {
     "name": "spicy-magpie-boilerplate",
     "version": "0.0.1",
+    "license": "MIT",
     "author": "Spicy Magpie <spicy.magpie@gmail.com>",
     "twitter": "@spicymagpie",
     "title": "Spicy Magpie's Boilerplate",

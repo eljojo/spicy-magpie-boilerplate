@@ -39,18 +39,6 @@ In simple steps:
   - Run **grunt dist** on your project directory.
   - Publish the content on the __dist/__ directory.
 
-## TODO
-
-  - Write better documentation.
-  - Write tests.
-  - Add compatibility with SASS, SCSS and LESS.
-  - Add compatibility with CoffeeScript.
-
-## License
-
-MIT License. I didn't include it now but will be part of the
-better documentation that I promised in the TODO list.
-
 ## Suggestions?
 
 Drop me a line at spicy.magpie@gmail.com
