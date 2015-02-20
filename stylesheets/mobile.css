@@ -1,0 +1,182 @@
+/**
+ * Spicy Magpie's Boilerplate
+ */
+
+/* XXXS Screen */
+@media only screen
+and (max-width : 320px)
+{
+
+}
+
+/* XXS Screen */
+@media only screen
+and (min-width : 320px)
+{
+
+}
+
+/* XS Screen */
+@media only screen
+and (min-width : 480px)
+{
+
+}
+
+/* Facebook */
+@media only screen
+and (min-width : 520px)
+{
+
+}
+
+/* S */
+@media only screen
+and (min-width : 600px)
+{
+
+}
+
+/* M */
+@media only screen
+and (min-width : 768px)
+{
+
+}
+
+/* Normal */
+@media only screen
+and (min-width : 960px)
+{
+
+}
+
+/* SVGA */
+@media only screen
+and (min-width : 1024px)
+{
+
+}
+
+/* Notebook */
+@media only screen
+and (min-width : 1366px)
+{
+
+}
+
+/* L */
+@media only screen
+and (min-width : 1440px)
+{
+
+}
+
+/* XL */
+@media only screen
+and (min-width : 1650px)
+{
+
+}
+
+/* XXL */
+@media only screen
+and (min-width : 1920px)
+{
+
+}
+
+
+/* Apple Large */
+@media only screen
+and (min-width : 2560px)
+{
+
+}
+
+/* 4k */
+@media only screen
+and (min-width : 3840px)
+{
+
+}
+
+/* iPhone 4S */
+@media
+only screen
+and (-webkit-min-device-pixel-ratio : 1.5),
+only screen
+and (min-device-pixel-ratio : 1.5)
+{
+
+}
+
+/* Small phones (any) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+
+}
+
+/* Small phones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait)
+{
+
+}
+
+/* Small phones (landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape)
+{
+
+}
+
+/* Medium phones (any) */
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 800px)
+{
+
+}
+
+/* Medium phones (portrait) */
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 800px)
+and (orientation : portrait)
+{
+
+}
+
+/* Medium phones (landscape) */
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 800px)
+and (orientation : landscape)
+{
+
+}
+
+/* iPad (portrait) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+{
+
+}
+
+/* iPad (landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+{
+
+}
