@@ -8,6 +8,8 @@
     "description": "A boilerplate for Web development projects",
     "site_url": "http://www.example.org/",
     "site_twitter": "@spicymagpie",
+    "googleplus_author": "116018532381612911668",
+    "googleplus_publisher": "116018532381612911668",
     "keywords": "web, development, projects",
     "locale": "en",
     "private": true,
