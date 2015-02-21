@@ -1,6 +1,6 @@
 {
     "name": "spicy-magpie-boilerplate",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "author": "Spicy Magpie <spicy.magpie@gmail.com>",
     "twitter": "@spicymagpie",
@@ -27,7 +27,7 @@
         "grunt-contrib-uglify": "*",
         "grunt-contrib-watch": "*",
         "grunt-string-replace": "*",
-        "grunt-browser-sync": "*",
+        "grunt-browser-sync": "2.2.0",
         "grunt-manifest": "*",
         "grunt-xml-sitemap": "*",
         "jshint-stylish": "*",

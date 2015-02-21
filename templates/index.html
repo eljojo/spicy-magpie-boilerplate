@@ -79,9 +79,11 @@
         <!-- JavaScript -->
         <script src="build/app.js"></script>
         <!--%[DEVELOPMENT]-->
-        <script type="text/javascript" id="__bs_script__">//<![CDATA[
-            document.write("<script async src='http://HOST:PORT/browser-sync/browser-sync-client.2.1.4.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g
-            //]]></script>
+        <script type="text/javascript" id="__bs_script__">
+            //<![CDATA[
+            document.write("<script async src='http://HOST:PORT/browser-sync/browser-sync-client.2.1.4.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
+            //]]>
+        </script>
         <!--%[/DEVELOPMENT]-->
     </body>
 </html>
