@@ -22,6 +22,7 @@
         "grunt-contrib-csslint": "*",
         "grunt-contrib-cssmin": "*",
         "grunt-contrib-jshint": "*",
+        "grunt-contrib-less": "*",
         "grunt-contrib-qunit": "*",
         "grunt-contrib-uglify": "*",
         "grunt-contrib-watch": "*",

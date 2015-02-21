@@ -2,48 +2,65 @@
     "css": [
         {
             "name": "vendor/bower/html5-reset/assets/css/reset.css",
+            "type": "css",
             "group": "vendor"
         },
         {
             "name": "vendor/bower/html5-reset/assets/css/style.css",
+            "type": "css",
             "group": "vendor"
         },
         {
             "name": "stylesheets/default.css",
+            "type": "css",
+            "group": "development"
+        },
+        {
+            "source": "stylesheets/use.less",
+            "name": "tmp/less/use.less.css",
+            "type": "less",
             "group": "development"
         },
         {
             "name": "stylesheets/design.css",
+            "type": "css",
             "group": "development"
         },
         {
             "name": "stylesheets/mobile.css",
+            "type": "css",
             "group": "development"
         }
     ],
     "js": [
         {
             "name": "vendor/bower/modernizr/modernizr.js",
+            "type": "js",
             "group": "vendor"
         },
         {
             "name": "vendor/bower/underscore/underscore.js",
+            "type": "js",
             "group": "vendor"
         },
         {
             "name": "vendor/bower/sugar/release/sugar-full.development.js",
+            "type": "js",
             "group": "vendor"
         },
         {
             "name": "vendor/bower/jquery/dist/jquery.js",
+            "type": "js",
             "group": "vendor"
         },
         {
             "name": "javascripts/console.js",
+            "type": "js",
             "group": "development"
         },
         {
             "name": "javascripts/application.js",
+            "type": "js",
             "group": "development"
         }
     ]

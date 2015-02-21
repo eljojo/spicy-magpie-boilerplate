@@ -1,6 +1,10 @@
 module.exports = function () {
     'use strict';
     return {
+        "less": {
+            "files": "<%= data.less %>",
+            "tasks": "less"
+        },
         "css": {
             "files": "<%= data.css_dev %>",
             "tasks": [

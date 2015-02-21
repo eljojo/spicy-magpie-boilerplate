@@ -15,6 +15,18 @@ module.exports = function (grunt) {
                     data = underscore.where(data, { "group" : "development" });
                     return underscore.pluck(data, "name");
                 }(grunt)),
+                less: (function (grunt) {
+                    var data = grunt.file.readJSON("filelist.json").css;
+                    data = underscore.where(data, { "group" : "development", "type" : "less" });
+                    return underscore.pluck(data, "source");
+                }(grunt)),
+                less_object: (function (grunt) {
+                    var data = grunt.file.readJSON("filelist.json").css, css = [], less = [];
+                    data = underscore.where(data, { "group" : "development", "type" : "less" });
+                    css = underscore.pluck(data, "name");
+                    less = underscore.pluck(data, "source");
+                    return underscore.object(css, less);
+                }(grunt)),
                 js: (function (grunt) {
                     var data = grunt.file.readJSON("filelist.json").js;
                     return underscore.pluck(data, "name");
@@ -35,7 +47,8 @@ module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask("build", ["clean", "csslint", "jshint", "concat"]);
+    grunt.registerTask("precompile", ["less"]);
+    grunt.registerTask("build", ["clean", "precompile", "csslint", "jshint", "concat"]);
     grunt.registerTask("dist", ["build", "copy", "uglify", "cssmin", "xml_sitemap", "manifest"]);
     grunt.registerTask("default", ["build", "browserSync", "watch"]);
 };

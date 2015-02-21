@@ -7,6 +7,7 @@ module.exports = function () {
                     "*.html",
                     "<%= data.pkg.assets_dir %>/*.css",
                     "stylesheets/*.css",
+                    "stylesheets/*.less",
                     "<%= data.pkg.assets_dir %>/*.js",
                     "javascripts/*.js",
                     "fonts/**/*.*",

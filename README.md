@@ -34,6 +34,46 @@ In simple steps:
   - In the console, you will see the access URL's. You can watch the changes
   across multiple browsers and devices.
 
+## How can I add my own assets?
+
+If you want to add fonts, images, audio and video, you can use the directories
+created for that purpose. Grunt will just copy those files when creating the
+distribution.
+
+CSS stylesheets can be added to the stylesheets/ directory but there is one
+extra step: Grunt must know that there are new files containing code before
+configuring the project. You must declare those files in the **filelist.json**
+manifest. The declaration is simple:
+
+    {
+        "css": [
+            {
+                "name": "stylesheets/your/new/file.css",
+                "type": "css",
+                "group" "development"
+            }
+        ]
+    }
+
+LESS stylesheets can be added the same way to the CSS section, but since these
+files are intended to generate CSS rather than being used as-is, these need to
+be declared as follows:
+
+    {
+        "css": [
+            {
+                "source": "stylesheets/your/new/file.less",
+                "name": "tmp/your/new/file.css",
+                "type": "css",
+                "group" "development"
+            }
+        ]
+    }
+
+Notice that the name of the object points to the **tmp/** directory, to avoid
+polluting your environment with intermediate code and avoid clashes with CSS
+stylesheets.
+
 ## I finished my project. What else should I do?
 
   - Run **grunt dist** on your project directory.

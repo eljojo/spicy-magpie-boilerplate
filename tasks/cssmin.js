@@ -7,7 +7,8 @@ module.exports = function () {
             }
         },
         "options": {
-            "shorthandCompacting": false
+            "shorthandCompacting": false,
+            "rebase": false
         }
     };
 };
