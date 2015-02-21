@@ -6,10 +6,12 @@ module.exports = function () {
                 "src": [
                     "*.html",
                     "<%= data.pkg.assets_dir %>/*.css",
-                    "stylesheets/*.css",
-                    "stylesheets/*.less",
+                    "stylesheets/**/*.css",
+                    "stylesheets/**/*.less",
+                    "stylesheets/**/*.sass",
+                    "stylesheets/**/*.scss",
                     "<%= data.pkg.assets_dir %>/*.js",
-                    "javascripts/*.js",
+                    "javascripts/**/*.js",
                     "fonts/**/*.*",
                     "images/**/*.*",
                     "media/**/*.*"

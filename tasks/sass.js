@@ -2,10 +2,10 @@ module.exports = function () {
     'use strict';
     return {
         "compile": {
-            "files": "<%= data.less_object %>",
+            "files": "<%= data.sass_object %>",
             "options": {
-                "syncImport": true,
-                "sourcemap": false
+                "style": "expanded",
+                "sourcemap": "none"
             }
         }
     };

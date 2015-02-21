@@ -5,6 +5,9 @@ module.exports = function () {
         "js": "<%= data.pkg.assets_dir %>/*.js",
         "build": "<%= data.pkg.assets_dir %>/",
         "dist": "dist/",
-        "tmp": "tmp/"
+        "tmp": [
+            "tmp/",
+            ".sass-cache"
+        ]
     };
 };

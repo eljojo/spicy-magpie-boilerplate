@@ -74,6 +74,10 @@ Notice that the name of the object points to the **tmp/** directory, to avoid
 polluting your environment with intermediate code and avoid clashes with CSS
 stylesheets.
 
+The same directives for LESS stylesheets are applied to SASS and SCSS styles,
+but in those cases, the type is "sass". Also, you need Ruby and the **sass**
+gem installed for SASS files to be compiled.
+
 ## I finished my project. What else should I do?
 
   - Run **grunt dist** on your project directory.

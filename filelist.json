@@ -16,9 +16,15 @@
             "group": "development"
         },
         {
-            "source": "stylesheets/use.less",
-            "name": "tmp/less/use.less.css",
+            "source": "stylesheets/example.less",
+            "name": "tmp/less/example.less.css",
             "type": "less",
+            "group": "development"
+        },
+        {
+            "source": "stylesheets/example.sass",
+            "name": "tmp/sass/example.sass.css",
+            "type": "sass",
             "group": "development"
         },
         {

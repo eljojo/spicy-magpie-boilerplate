@@ -27,6 +27,18 @@ module.exports = function (grunt) {
                     less = underscore.pluck(data, "source");
                     return underscore.object(css, less);
                 }(grunt)),
+                sass: (function (grunt) {
+                    var data = grunt.file.readJSON("filelist.json").css;
+                    data = underscore.where(data, { "group" : "development", "type" : "sass" });
+                    return underscore.pluck(data, "source");
+                }(grunt)),
+                sass_object: (function (grunt) {
+                    var data = grunt.file.readJSON("filelist.json").css, css = [], sass = [];
+                    data = underscore.where(data, { "group" : "development", "type" : "sass" });
+                    css = underscore.pluck(data, "name");
+                    sass = underscore.pluck(data, "source");
+                    return underscore.object(css, sass);
+                }(grunt)),
                 js: (function (grunt) {
                     var data = grunt.file.readJSON("filelist.json").js;
                     return underscore.pluck(data, "name");

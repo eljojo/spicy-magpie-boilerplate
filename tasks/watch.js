@@ -5,6 +5,10 @@ module.exports = function () {
             "files": "<%= data.less %>",
             "tasks": "less"
         },
+        "sass": {
+            "files": "<%= data.sass %>",
+            "tasks": "sass"
+        },
         "css": {
             "files": "<%= data.css_dev %>",
             "tasks": [
