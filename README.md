@@ -29,7 +29,7 @@ In simple steps:
 
   - Run **grunt** on your project directory.
   - Open your project directory with your IDE.
-  - Edit the values for your project on the **package,json** file.
+  - Edit the values for your project on the **package.json** file.
   - Modify files and watch the changes.
   - In the console, you will see the access URL's. You can watch the changes
   across multiple browsers and devices.
